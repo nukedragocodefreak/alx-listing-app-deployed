@@ -48,7 +48,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "4-6"
         },
         image: "https://example.com/image1.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "Mountain Escape Chalet",
@@ -66,7 +67,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "5-7"
         },
         image: "https://example.com/image2.jpg",
-        discount: "30"
+        discount: "30",
+        description: ""
     },
     {
         name: "Cozy Desert Retreat",
@@ -84,7 +86,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "2-3"
         },
         image: "https://example.com/image3.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "City Lights Penthouse",
@@ -102,7 +105,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "2-4"
         },
         image: "https://example.com/image4.jpg",
-        discount: "15"
+        discount: "15",
+        description: ""
     },
     {
         name: "Riverside Cabin",
@@ -120,7 +124,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "4-6"
         },
         image: "https://example.com/image5.jpg",
-        discount: "20"
+        discount: "20",
+        description: ""
     },
     {
         name: "Modern Beachfront Villa",
@@ -138,7 +143,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "8-10"
         },
         image: "https://example.com/image6.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "Lakeside Chalet",
@@ -156,7 +162,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "4-5"
         },
         image: "https://example.com/image7.jpg",
-        discount: "10"
+        discount: "10",
+        description: ""
     },
     {
         name: "Tropical Garden Villa",
@@ -174,7 +181,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "5-6"
         },
         image: "https://example.com/image8.jpg",
-        discount: "25"
+        discount: "25",
+        description: ""
     },
     {
         name: "Urban Loft",
@@ -192,7 +200,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "2-3"
         },
         image: "https://example.com/image9.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "Secluded Forest Cabin",
@@ -210,7 +219,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "5-7"
         },
         image: "https://example.com/image10.jpg",
-        discount: "40"
+        discount: "40",
+        description: ""
     },
     {
         name: "Cliffside Villa",
@@ -228,7 +238,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "6-8"
         },
         image: "https://example.com/image11.jpg",
-        discount: "50"
+        discount: "50",
+        description: ""
     },
     {
         name: "Coastal Escape Villa",
@@ -246,7 +257,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "4-6"
         },
         image: "https://example.com/image12.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "Historical Villa",
@@ -264,7 +276,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "2-4"
         },
         image: "https://example.com/image13.jpg",
-        discount: "35"
+        discount: "35",
+        description: ""
     },
     {
         name: "Downtown Apartment",
@@ -282,7 +295,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "2"
         },
         image: "https://example.com/image14.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "Luxury Safari Lodge",
@@ -300,7 +314,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "6-8"
         },
         image: "https://example.com/image15.jpg",
-        discount: "20"
+        discount: "20",
+        description: ""
     },
     {
         name: "Countryside Cottage",
@@ -318,13 +333,14 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "2-4"
         },
         image: "https://example.com/image16.jpg",
-        discount: "25"
+        discount: "25",
+        description: ""
     },
     {
         name: "Riverfront Mansion",
         address: {
             state: "Paris",
-            city: "Île-de-France",
+            city: "ï¿½le-de-France",
             country: "France"
         },
         rating: 4.86,
@@ -336,7 +352,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "6-8"
         },
         image: "https://example.com/image17.jpg",
-        discount: "30"
+        discount: "30",
+        description: ""
     },
     {
         name: "Ski Chalet",
@@ -354,7 +371,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "4-5"
         },
         image: "https://example.com/image18.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     },
     {
         name: "Island Paradise Villa",
@@ -372,7 +390,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "8-10"
         },
         image: "https://example.com/image19.jpg",
-        discount: "60"
+        discount: "60",
+        description: ""
     },
     {
         name: "Clifftop Retreat",
@@ -390,6 +409,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
             occupants: "4-5"
         },
         image: "https://example.com/image20.jpg",
-        discount: ""
+        discount: "",
+        description: ""
     }
 ];
