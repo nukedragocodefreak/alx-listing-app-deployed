@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import ReviewSection from '@/components/property/ReviewSection';
 
 interface PropertyDetailProps {
   property: {
