@@ -2,17 +2,25 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 
 interface ReviewSectionProps {
-  propertyId: string; // or number, depending on your data model
+  propertyId: string;
+}
+
+interface Review {
+  id: string;
+  comment: string;
+  // Add other fields as needed
 }
 
 const ReviewSection = ({ propertyId }: ReviewSectionProps) => {
-  const [reviews, setReviews] = useState([]);
+  const [reviews, setReviews] = useState<Review[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-         const response = await axios.get(`${process.env.NEXT_PUBLIC_API_BASE_URL}/properties`);
+        const response = await axios.get(
+          `/api/properties/${propertyId}/reviews`
+        );
         setReviews(response.data);
       } catch (error) {
         console.error("Error fetching reviews:", error);
